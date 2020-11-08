@@ -1,13 +1,118 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  width:100%;
+  height:100vh;
+  background-image: url(./photo/space-3197611_1920.jpg);
+  font-family: 'Times New Roman', Times, serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header{
+  font-size:45px;
+  font-weight: bolder;
+  color:rgb(12, 63, 7);
+  text-align: center;
+  margin: 15px auto 10px auto;
+  background-color: rgba(238, 231, 231, 0.8);
+}
+
+.box{
+  width:900px;
+  height:670px;
+  margin:20px auto;
+  /* border:solid 3px #333 */
+}
+
+.tab{
+  display:flex;
+  width:900px;
+}
+.tablist{
+  width:604px;
+  display: flex;
+  height: 30px;
+  overflow-x: auto;
+}
+.tablist div{
+  border-radius: 5%;
+  border:solid 2px rgba(37, 48, 3, 0.712);
+  border-bottom: none;
+  /* background-color: rgba(172, 173, 169, 0.712);  */
+  margin-bottom:-2px;
+  margin-right:2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom:0;
+  /* color: rgb(204, 129, 79); */
+  color:rgb(4, 99, 40);
+  font-size:18px;
+  user-select: none;
+}
+
+.selected{
+  /* color:rgba(69, 189, 58, 0.815); */
+  font-weight: bold;
+  background-color: rgba(18, 19, 18, 0.84);
+}
+
+br{
+  user-select: none;
+}
+
+
+.tab_menue{
+  margin-left:10px;
+  border:none;
+}
+
+            
+.createtab{
+ font-size:18px;
+ width:80px;
+ text-align: center;
+ border-radius:5%;
+ border: solid 1px #222;
+ margin: 5px 15px 0 auto;
+ cursor: pointer;
+ background-color: rgb(221, 153, 90);
+ color: rgb(87, 51, 5);
+}
+
+.content{
+  width:600px;
+  height:600px;
+  border:solid 2px  rgba(172, 173, 169, 0.712);
+  border-radius: 1%;
+  background-color: rgba(18, 19, 18, 0.84);
+  overflow: scroll;
+}
+
+.content_ul{
+  list-style: none;
+}
+
+.content_ul li{
+  cursor: pointer;
+  color:white;
+  font-size: 18px;
+}
+
+.option{
+  margin-top: 5px;
+  display: flex;
+}
+
+.option div{
+  border:solid 1px black;
+  border-radius: 5%;
+  background-color: rgba(10, 156, 17, 0.9);
+  color: rgb(228, 209, 184);
+  margin-right: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.nothing{
+  font-weight: bolder;
 }
