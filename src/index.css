@@ -19,7 +19,6 @@ header{
   width:900px;
   height:670px;
   margin:20px auto;
-  /* border:solid 3px #333 */
 }
 
 .tab{
@@ -30,28 +29,56 @@ header{
   width:604px;
   display: flex;
   height: 30px;
-  overflow-x: auto;
+  overflow-y: hidden;
 }
-.tablist div{
-  border-radius: 5%;
-  border:solid 2px rgba(37, 48, 3, 0.712);
+
+.nothing{
+  border-radius: 5px;
+  border:solid 2px rgba(172, 173, 169, 0.712);
   border-bottom: none;
-  /* background-color: rgba(172, 173, 169, 0.712);  */
   margin-bottom:-2px;
   margin-right:2px;
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom:0;
-  /* color: rgb(204, 129, 79); */
-  color:rgb(4, 99, 40);
   font-size:18px;
   user-select: none;
+  font-weight: bolder;
+  background-color: rgba(237, 242, 237, 0.9);
+}
+
+.none{
+  font-weight: bold;
+  border-radius: 2px 2px 0 0;
+  border:solid 1px rgba(18, 19, 18, 0.84);
+  border-bottom: none;
+  border-bottom: none;
+  margin-bottom:0,0,-2px,0;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom:0;
+  font-size:18px;
+  user-select: none;
+  font-weight: bold;
+  background-color: rgba(237, 242, 237, 0.9);
 }
 
 .selected{
-  /* color:rgba(69, 189, 58, 0.815); */
   font-weight: bold;
+  border-radius: 5px;
+  border:solid 2px rgba(172, 173, 169, 0.712);
+  border-bottom: none;
+  border-bottom: none;
+  margin-bottom:-2px;
+  margin-right:2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom:0;
+  font-size:18px;
+  user-select: none;
+  font-weight: bolder;
   background-color: rgba(18, 19, 18, 0.84);
+  color: coral;
 }
 
 br{
@@ -81,9 +108,10 @@ br{
   width:600px;
   height:600px;
   border:solid 2px  rgba(172, 173, 169, 0.712);
-  border-radius: 1%;
+  border-top: none;
+  border-radius: 0,1%,1%,1%;
   background-color: rgba(18, 19, 18, 0.84);
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .content_ul{
@@ -94,6 +122,8 @@ br{
   cursor: pointer;
   color:white;
   font-size: 18px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
 }
 
 .option{
@@ -113,6 +143,3 @@ br{
   font-size: 20px;
 }
 
-.nothing{
-  font-weight: bolder;
-}
