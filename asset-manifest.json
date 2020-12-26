@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mytodo/static/css/main.1d9fb1b1.chunk.css",
+    "main.js": "/mytodo/static/js/main.0395c183.chunk.js",
+    "main.js.map": "/mytodo/static/js/main.0395c183.chunk.js.map",
+    "runtime-main.js": "/mytodo/static/js/runtime-main.b79ed113.js",
+    "runtime-main.js.map": "/mytodo/static/js/runtime-main.b79ed113.js.map",
+    "static/js/2.0514648e.chunk.js": "/mytodo/static/js/2.0514648e.chunk.js",
+    "static/js/2.0514648e.chunk.js.map": "/mytodo/static/js/2.0514648e.chunk.js.map",
+    "static/js/3.cfbcdf7a.chunk.js": "/mytodo/static/js/3.cfbcdf7a.chunk.js",
+    "static/js/3.cfbcdf7a.chunk.js.map": "/mytodo/static/js/3.cfbcdf7a.chunk.js.map",
+    "index.html": "/mytodo/index.html",
+    "static/css/main.1d9fb1b1.chunk.css.map": "/mytodo/static/css/main.1d9fb1b1.chunk.css.map",
+    "static/js/2.0514648e.chunk.js.LICENSE.txt": "/mytodo/static/js/2.0514648e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/mytodo/static/media/space-3197611_1920.b7c7fd28.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b79ed113.js",
+    "static/js/2.0514648e.chunk.js",
+    "static/css/main.1d9fb1b1.chunk.css",
+    "static/js/main.0395c183.chunk.js"
+  ]
+}
